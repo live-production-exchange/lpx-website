@@ -1,0 +1,38 @@
+---
+title: Live Production Exchange
+description: The open-source standard for automating the exchange of live video metadata and scheduling across IP networks.
+template: splash
+hero:
+  tagline: The open-source standard for automating the exchange of live video metadata and scheduling across IP networks.
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Read the Docs
+      link: /introduction/why/
+      icon: right-arrow
+      variant: primary
+    - text: View on GitHub
+      link: https://github.com/live-production-exchange
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+:::caution[Important Update]
+**LPX is evolving into an independent, open-source standard.** Join our new community on [GitHub](https://github.com/live-production-exchange).
+:::
+
+<CardGrid stagger>
+	<Card title="Automated & Standardized" icon="rocket">
+		Replaces manual, high-touch legacy workflows with seamless machine-to-machine communication for live video content.
+	</Card>
+	<Card title="IPTC ninjs Based" icon="setting">
+		Leverages a metadata schema based on the proven IPTC **ninjs** standard for describing live feeds, schedules, and transport protocols.
+	</Card>
+	<Card title="Industry Interoperability" icon="puzzle">
+		Bridges the gap between live event producers, service providers, and broadcast technologies.
+	</Card>
+	<Card title="Open Source" icon="github">
+		Built by the community, for the community. Moving towards a standalone, fully open ecosystem.
+	</Card>
+</CardGrid>
