@@ -26,6 +26,10 @@ You are working on the documentation website for the **Live Production Exchange 
    - Use Starlight's built-in components (e.g., `<Card>`, `<CardGrid>`, `<Aside>`, or `:::caution`) in MDX files to enhance documentation formatting.
    - Ensure you use relative paths when linking to assets or other documentation pages.
 
+4. **Git Commit Format:**
+   - All commits must follow the **Conventional Commits** specification (e.g., `feat(ui): add new button`, `fix(docs): resolve typo`, `chore(deps): update packages`).
+   - Please always include a scope where applicable, formatted as `type(scope): message`.
+
 ## Helpful References
 - [Starlight Documentation](https://starlight.astro.build/)
 - [Astro Documentation](https://docs.astro.build)

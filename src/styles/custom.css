@@ -78,3 +78,19 @@
     50% { transform: translateY(-15px); }
     100% { transform: translateY(0px); }
 }
+
+/* Center Starlight Search Bar */
+@media (min-width: 50rem) {
+    site-search {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+    }
+    
+    /* Make the search button itself a bit wider for a modern look */
+    site-search button {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
