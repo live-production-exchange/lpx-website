@@ -94,3 +94,47 @@
     }
 }
 
+
+/* Logo Carousel */
+.logo-carousel-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 2rem 0;
+    position: relative;
+    background: transparent;
+    display: flex;
+    white-space: nowrap;
+}
+/* Fading edges */
+.logo-carousel-container::before,
+.logo-carousel-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    z-index: 2;
+}
+.logo-carousel-container::before {
+    left: 0;
+    background: linear-gradient(to right, var(--sl-color-bg), transparent);
+}
+.logo-carousel-container::after {
+    right: 0;
+    background: linear-gradient(to left, var(--sl-color-bg), transparent);
+}
+.logo-carousel-track {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    animation: scroll 30s linear infinite;
+    /* Duplicate track needs to be inline or flex as well */
+}
+.logo-carousel-track:hover {
+    animation-play-state: paused;
+}
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-50% - 2rem)); }
+}
+
