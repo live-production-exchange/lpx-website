@@ -1,18 +1,14 @@
 /* src/styles/custom.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 :root {
 	/* DPP Red/Burgundy theme */
 	--sl-color-accent-low: #2e0811;
 	--sl-color-accent: #ba2844;
 	--sl-color-accent-high: #f06a84;
 	
-	--sl-color-white: #ffffff;
-	--sl-color-gray-1: #e2e8f0;
-	--sl-color-gray-2: #cbd5e1;
-	--sl-color-gray-3: #94a3b8;
-	--sl-color-gray-4: #64748b;
-	--sl-color-gray-5: #475569;
-	--sl-color-gray-6: #334155;
-	--sl-color-bg-nav: #1e1e1e;
+	/* Modern basic font */
+	--sl-font: 'Inter', sans-serif;
 }
 
 /* Light mode overrides */
@@ -20,6 +16,65 @@
 	--sl-color-accent-low: #f9e5e9;
 	--sl-color-accent: #ba2844;
 	--sl-color-accent-high: #6b1525;
-	
-	--sl-color-bg-nav: #ffffff;
+}
+
+/* Modern, swishy, sleek card overrides */
+.sl-markdown-content .card-grid {
+    gap: 2rem !important;
+}
+
+.sl-markdown-content .card {
+    border-radius: 12px !important;
+    background: linear-gradient(145deg, var(--sl-color-black), var(--sl-color-bg-nav));
+    box-shadow: 0 10px 30px -10px rgba(0,0,0,0.3);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s ease !important;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid var(--sl-color-gray-5) !important;
+}
+
+.sl-markdown-content .card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--sl-color-accent), var(--sl-color-accent-high));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.sl-markdown-content .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px -15px rgba(0,0,0,0.4);
+    border-color: var(--sl-color-accent) !important;
+}
+
+.sl-markdown-content .card:hover::before {
+    opacity: 1;
+}
+
+:root[data-theme='light'] .sl-markdown-content .card {
+    background: linear-gradient(145deg, #ffffff, #f8fafc);
+    border-color: var(--sl-color-gray-2) !important;
+    box-shadow: 0 10px 30px -10px rgba(0,0,0,0.05);
+}
+
+:root[data-theme='light'] .sl-markdown-content .card:hover {
+    box-shadow: 0 20px 40px -15px rgba(0,0,0,0.1);
+    border-color: var(--sl-color-accent) !important;
+}
+
+/* Sleek Hero overrides */
+.hero {
+    position: relative;
+}
+.hero > img {
+    animation: float 6s ease-in-out infinite;
+    filter: drop-shadow(0 20px 30px rgba(186, 40, 68, 0.3));
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
 }
