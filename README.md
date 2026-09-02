@@ -1,37 +1,26 @@
-# Starlight Starter Kit: Basics
+# Live Production Exchange (LPX)
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+The open-source standard for automating the exchange of live video metadata and scheduling across IP networks.
 
-```
-npm create astro@latest -- --template starlight
-```
+**[Read the Documentation](https://live-production-exchange.github.io)** (or wherever your docs are hosted)
+**[Join the Community on GitHub](https://github.com/live-production-exchange)**
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Overview
 
-## 🚀 Project Structure
+LPX is evolving into an independent, open-source standard. It bridges the gap between live event producers, service providers, and broadcast technologies by replacing manual, high-touch legacy workflows with seamless machine-to-machine communication for live video content. 
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+The standard leverages a metadata schema based on the proven IPTC **ninjs** standard for describing live feeds, schedules, and transport protocols.
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+## Documentation Site Development
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+This repository contains the Astro + Starlight documentation site for LPX.
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+### Prerequisites
 
-Static assets, like favicons, can be placed in the `public/` directory.
+- Node.js
+- npm
 
-## 🧞 Commands
+### 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -41,9 +30,13 @@ All commands are run from the root of the project, from a terminal:
 | `npm run dev`             | Starts local dev server at `localhost:4321`      |
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+### Contributing to the Docs
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+1. Documentation pages are written in Markdown (`.md`) or MDX (`.mdx`).
+2. You can find all the content pages inside the `src/content/docs/` directory.
+3. Simply create or edit files in there to update the site. The navigation sidebar will automatically generate based on the folder structure and `astro.config.mjs` settings.
+
+## License
+
+Built by the community, for the community. Moving towards a standalone, fully open ecosystem.

@@ -8,6 +8,9 @@ export default defineConfig({
 		starlight({
 			title: 'Live Production Exchange',
 			customCss: ['./src/styles/custom.css'],
+			components: {
+				Footer: './src/components/Footer.astro',
+			},
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/live-production-exchange' }],
 			sidebar: [
 				{

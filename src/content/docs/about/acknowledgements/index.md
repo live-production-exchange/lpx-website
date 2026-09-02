@@ -6,12 +6,37 @@ title: Acknowledgements
 
 
 
+import { Image } from 'astro:assets';
+import reuters from '../../../../assets/logos/reuters.png';
+import wbd from '../../../../assets/logos/wbd.png';
+import iptc from '../../../../assets/logos/iptc.png';
+import arqiva from '../../../../assets/logos/arqiva.png';
+import dpp from '../../../../assets/logos/dpp.png';
+import mrmxf from '../../../../assets/logos/mrmxf.png';
+import bbc from '../../../../assets/logos/bbc.png';
+import nxtedition from '../../../../assets/logos/nxtedition.png';
+import wolftech from '../../../../assets/logos/wolftech.png';
+import aws from '../../../../assets/logos/aws.png';
+import cinnafilm from '../../../../assets/logos/cinnafilm.png';
+import haivision from '../../../../assets/logos/haivision.png';
+
 The DPP would like to thank the following organisations for playing a key role in
 developing the DPP Live Production Exchange Recommendation.
 
-![](/about/acknowledgements/reuters.png) | | ![](/about/acknowledgements/wbd.jpeg)
-
-![](/about/acknowledgements/iptc-logo.png) | | ![](/about/acknowledgements/Arqiva_Logo.png)
+<div style={{ display: 'flex', flexWrap: 'wrap', gap: '2.5rem', alignItems: 'center', justifyContent: 'center', margin: '3rem 0' }}>
+  <Image src={reuters} alt="Reuters" style={{ height: '60px', width: 'auto' }} />
+  <Image src={wbd} alt="Warner Bros Discovery" style={{ height: '60px', width: 'auto' }} />
+  <Image src={iptc} alt="IPTC" style={{ height: '60px', width: 'auto' }} />
+  <Image src={arqiva} alt="Arqiva" style={{ height: '60px', width: 'auto' }} />
+  <Image src={dpp} alt="DPP" style={{ height: '60px', width: 'auto' }} />
+  <Image src={mrmxf} alt="Mr MXF" style={{ height: '60px', width: 'auto' }} />
+  <Image src={bbc} alt="BBC" style={{ height: '60px', width: 'auto' }} />
+  <Image src={nxtedition} alt="nxtedition" style={{ height: '60px', width: 'auto' }} />
+  <Image src={wolftech} alt="Wolftech" style={{ height: '60px', width: 'auto' }} />
+  <Image src={aws} alt="AWS" style={{ height: '60px', width: 'auto' }} />
+  <Image src={cinnafilm} alt="Cinnafilm" style={{ height: '60px', width: 'auto' }} />
+  <Image src={haivision} alt="Haivision" style={{ height: '60px', width: 'auto' }} />
+</div>
 
 We would also like to thank the following individuals for their participation in the development of DPP LPX.
 
