@@ -6,30 +6,30 @@ The DPP would like to thank the following organisations for playing a key role i
 
 <div class="logo-carousel-container">
   <div class="logo-carousel-track">
-    <Image src={reuters} alt="Reuters" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={wbd} alt="Warner Bros Discovery" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={iptc} alt="IPTC" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={arqiva} alt="Arqiva" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={dpp} alt="DPP" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={mrmxf} alt="Mr MXF" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={bbc} alt="BBC" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={nxtedition} alt="nxtedition" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={wolftech} alt="Wolftech" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={aws} alt="AWS" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={cinnafilm} alt="Cinnafilm" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={haivision} alt="Haivision" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={reuters} alt="Reuters" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={wbd} alt="Warner Bros Discovery" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={iptc} alt="IPTC" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={arqiva} alt="Arqiva" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={dpp} alt="DPP" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={mrmxf} alt="Mr MXF" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={bbc} alt="BBC" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={nxtedition} alt="nxtedition" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={wolftech} alt="Wolftech" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={aws} alt="AWS" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={cinnafilm} alt="Cinnafilm" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
-    <Image src={haivision} alt="Haivision" style={{ height: '40px', width: 'auto', filter: 'grayscale(100%) opacity(70%)' }} />
+    <img src="/assets/logos/reuters.svg" alt="Reuters" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/wbd.svg" alt="Warner Bros Discovery" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/iptc.png" alt="IPTC" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/arqiva.svg" alt="Arqiva" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/dpp.jpg" alt="DPP" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/mrmxf.svg" alt="Mr MXF" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/bbc.svg" alt="BBC" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/nxtedition.png" alt="nxtedition" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/wolftech.png" alt="Wolftech" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/aws.svg" alt="AWS" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/cinnafilm.png" alt="Cinnafilm" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/haivision.png" alt="Haivision" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/reuters.svg" alt="Reuters" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/wbd.svg" alt="Warner Bros Discovery" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/iptc.png" alt="IPTC" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/arqiva.svg" alt="Arqiva" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/dpp.jpg" alt="DPP" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/mrmxf.svg" alt="Mr MXF" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/bbc.svg" alt="BBC" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/nxtedition.png" alt="nxtedition" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/wolftech.png" alt="Wolftech" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/aws.svg" alt="AWS" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/cinnafilm.png" alt="Cinnafilm" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="/assets/logos/haivision.png" alt="Haivision" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
   </div>
 </div>
 
@@ -49,6 +49,8 @@ We would also like to thank the following individuals for their participation in
 | **Osman Kutlu** | Senior Solutions Architect *AWS* |  | **Ali Amoli** | Technology Leader *AWS* |
 | **Matt Waldock** | Director Business *Xytech Systems* |  | **Dom Jackson** | VP Product and Services *Cinnafilm* |
 | **Anthony Concannon** | Sales Director *Haivision* |  | **Kevin Carter** | Sr Security Consultant *Amazon* |
+
+
 
 
 
