@@ -1,0 +1,54 @@
+:root {
+    --bs-primary: #ba2844;
+    --bs-primary-rgb: 186,40,68;
+    --bd-purple: #ba2844;
+    --bd-accent: #ba2844;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+}
+
+/* Sidebar styling mimicking Bootstrap */
+.bd-sidebar {
+    position: sticky;
+    top: 4rem;
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
+    border-right: 1px solid var(--bs-border-color);
+}
+.bd-links .btn {
+    padding: .25rem .5rem;
+    font-weight: 600;
+    color: var(--bs-body-color);
+}
+.bd-links .btn:hover, .bd-links .btn:focus {
+    color: var(--bs-primary);
+    background-color: var(--bs-secondary-bg);
+}
+.btn-toggle-nav a {
+    padding: .1875rem .5rem;
+    margin-top: .125rem;
+    margin-left: 1.25rem;
+    color: var(--bs-body-color);
+}
+.btn-toggle-nav a:hover, .btn-toggle-nav a:focus {
+    background-color: var(--bs-secondary-bg);
+    color: var(--bs-primary);
+}
+.btn-toggle-nav a.active {
+    font-weight: 600;
+    color: var(--bs-primary);
+}
+.bd-navbar {
+    background-color: var(--bs-primary) !important;
+}
+.bd-navbar .navbar-brand, .bd-navbar .nav-link {
+    color: white !important;
+}
+.bd-navbar .dropdown-menu {
+    position: absolute;
+}
+/* Pagefind Search Integration tweaks */
+#search { width: 100%; max-width: 300px; }
+.pagefind-ui__search-input { border-radius: 4px; padding: 5px; }

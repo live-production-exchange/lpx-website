@@ -3,9 +3,9 @@
   "type": "module",
   "version": "1.2.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "hugo server -D",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "hugo && pagefind --site public",
     "preview": "astro preview",
     "astro": "astro",
     "prepare": "husky"
@@ -22,6 +22,8 @@
   "devDependencies": {
     "@commitlint/cli": "^21.2.2",
     "@commitlint/config-conventional": "^21.2.2",
-    "husky": "^9.1.7"
+    "hugo-extended": "^0.164.0",
+    "husky": "^9.1.7",
+    "pagefind": "^1.5.2"
   }
 }

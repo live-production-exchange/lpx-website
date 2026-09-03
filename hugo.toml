@@ -1,0 +1,13 @@
+baseURL = "https://liveproductionexchange.org/"
+languageCode = "en-us"
+title = "Live Production Exchange"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # Allows raw HTML in markdown
+
+[params]
+  description = "The open-source standard for automating the exchange of live video metadata and scheduling across IP networks."
+  github = "https://github.com/live-production-exchange"

@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="bd-content ps-lg-4">
+    <h1 class="bd-title mb-4" id="content">{{ .Title }}</h1>
+    
+    {{ .Content }}
+    
+    <div class="mt-5 pt-3 border-top text-muted small">
+        &copy; {{ now.Year }} Live Production Exchange
+    </div>
+</div>
+{{ end }}

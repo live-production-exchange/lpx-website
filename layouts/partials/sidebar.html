@@ -1,0 +1,91 @@
+<nav class="collapse bd-links" id="bd-docs-nav" aria-label="Docs navigation">
+  {{ $currentVersion := index (split (strings.TrimPrefix "/" .RelPermalink) "/") 0 }}
+  {{ $versionPages := where .Site.Pages "Section" $currentVersion }}
+  
+  {{ if eq $currentVersion "2.0" }}
+  <ul class="list-unstyled mb-0 py-3 pt-md-1">
+    <li class="mb-1">
+      <a class="d-inline-flex align-items-center rounded text-decoration-none {{ if eq .RelPermalink "/2.0/" }}active{{ end }}" href="/2.0/">Coming Soon</a>
+    </li>
+  </ul>
+  {{ else }}
+  <ul class="list-unstyled mb-0 py-3 pt-md-1">
+    <!-- Introduction -->
+    <li class="mb-1">
+      <button class="btn d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#introduction-collapse" aria-expanded="true">
+        Introduction
+      </button>
+      <div class="collapse show" id="introduction-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="/1.0/introduction/" class="d-inline-flex align-items-center rounded text-decoration-none">Introduction to DPP LPX</a></li>
+          <li><a href="/1.0/introduction/why/" class="d-inline-flex align-items-center rounded text-decoration-none">Key Benefits</a></li>
+          <li><a href="/1.0/introduction/iptc/" class="d-inline-flex align-items-center rounded text-decoration-none">DPP LPX and IPTC ninjs</a></li>
+          <li><a href="/1.0/introduction/model/" class="d-inline-flex align-items-center rounded text-decoration-none">LPX Data Model</a></li>
+          <li><a href="/1.0/introduction/json/" class="d-inline-flex align-items-center rounded text-decoration-none">A Simple Example</a></li>
+          <li><a href="/1.0/introduction/example/" class="d-inline-flex align-items-center rounded text-decoration-none">LPX User Stories</a></li>
+        </ul>
+      </div>
+    </li>
+    
+    <!-- Schema -->
+    <li class="mb-1">
+      <button class="btn d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#schema-collapse" aria-expanded="true">
+        LPX Metadata
+      </button>
+      <div class="collapse show" id="schema-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="/1.0/schema/" class="d-inline-flex align-items-center rounded text-decoration-none">LPX Metadata</a></li>
+          <li><a href="/1.0/schema/administrative/" class="d-inline-flex align-items-center rounded text-decoration-none">Administrative Properties</a></li>
+          <li><a href="/1.0/schema/editorial/" class="d-inline-flex align-items-center rounded text-decoration-none">Editorial Properties</a></li>
+          <li><a href="/1.0/schema/events/" class="d-inline-flex align-items-center rounded text-decoration-none">Event Properties</a></li>
+          <li><a href="/1.0/schema/json/" class="d-inline-flex align-items-center rounded text-decoration-none">JSON Schema</a></li>
+          <li><a href="/1.0/schema/renditions/" class="d-inline-flex align-items-center rounded text-decoration-none">Rendition Properties</a></li>
+          <li><a href="/1.0/schema/rights/" class="d-inline-flex align-items-center rounded text-decoration-none">Rights Properties</a></li>
+        </ul>
+      </div>
+    </li>
+    
+    <!-- Examples -->
+    <li class="mb-1">
+      <button class="btn d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#examples-collapse" aria-expanded="true">
+        Examples
+      </button>
+      <div class="collapse show" id="examples-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="/1.0/examples/" class="d-inline-flex align-items-center rounded text-decoration-none">Examples</a></li>
+          <li><a href="/1.0/examples/reuters/" class="d-inline-flex align-items-center rounded text-decoration-none">Reuters Examples</a></li>
+        </ul>
+      </div>
+    </li>
+    
+    <!-- APIs -->
+    <li class="mb-1">
+      <button class="btn d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#apis-collapse" aria-expanded="true">
+        Reference APIs
+      </button>
+      <div class="collapse show" id="apis-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="/1.0/api/" class="d-inline-flex align-items-center rounded text-decoration-none">APIs</a></li>
+          <li><a href="/1.0/api/graph/" class="d-inline-flex align-items-center rounded text-decoration-none">GraphQL API</a></li>
+          <li><a href="/1.0/api/recommendations/" class="d-inline-flex align-items-center rounded text-decoration-none">Recommendations</a></li>
+          <li><a href="/1.0/api/rest/" class="d-inline-flex align-items-center rounded text-decoration-none">REST API</a></li>
+        </ul>
+      </div>
+    </li>
+
+    <!-- About -->
+    <li class="mb-1">
+      <button class="btn d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#about-collapse" aria-expanded="true">
+        About LPX
+      </button>
+      <div class="collapse show" id="about-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="/1.0/about/" class="d-inline-flex align-items-center rounded text-decoration-none">About</a></li>
+          <li><a href="/1.0/about/acknowledgements/" class="d-inline-flex align-items-center rounded text-decoration-none">Acknowledgements</a></li>
+          <li><a href="/1.0/about/license/" class="d-inline-flex align-items-center rounded text-decoration-none">License</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+  {{ end }}
+</nav>

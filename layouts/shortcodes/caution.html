@@ -1,0 +1,6 @@
+<div class="alert alert-warning d-flex align-items-center" role="alert">
+    <div>
+        {{ if .Get "title" }}<h6 class="alert-heading fw-bold">{{ .Get "title" }}</h6>{{ end }}
+        <p class="mb-0">{{ .Inner | markdownify }}</p>
+    </div>
+</div>
