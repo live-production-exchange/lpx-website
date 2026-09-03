@@ -2,7 +2,7 @@
 title: Reuters Live
 ---
 
-# Reuters Live
+
 
 
 
@@ -25,5 +25,6 @@ Example JSON for a cancelled event
 ##### [Upcoming Event](/1.0/examples/reuters/planned_event/)
 
 Example JSON for a coming event
+
 
 

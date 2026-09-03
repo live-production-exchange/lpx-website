@@ -2,7 +2,7 @@
 title: A Simple Example
 ---
 
-# A Simple Example
+
 
 The following is an example of a simple LPX data exchange
 
@@ -61,4 +61,5 @@ The following is an example of a simple LPX data exchange
   }
 }
 ```
+
 

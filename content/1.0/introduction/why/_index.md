@@ -2,7 +2,7 @@
 title: Key Benefits
 ---
 
-# Key Benefits
+
 
 
 
@@ -41,4 +41,5 @@ The metadata flow from planning tools through the whole life cycle of the live p
 ### Sustainability
 
 It is an objective of the project to design a serverless agile infrastructure.
+
 

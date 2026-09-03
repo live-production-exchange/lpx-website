@@ -2,7 +2,7 @@
 title: Rendition Properties
 ---
 
-# Rendition Properties
+
 
 
 
@@ -22,4 +22,5 @@ Renditions provide the technical details about available feeds and how to access
 |  | bitrate |  | Int |  |
 |  | transportProtocol |  | String | Rendition delivery protocol |
 |  | href |  | String |  |
+
 

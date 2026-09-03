@@ -2,7 +2,7 @@
 title: Rights Properties
 ---
 
-# Rights Properties
+
 
 
 
@@ -13,4 +13,5 @@ These properties provide cover rights and usage terms.
 | copyrightHolder |  |  | String | The person or organisation claiming the intellectual property for the content |
 | copyrightNotice |  |  | String | Any necessary copyright notice for claiming the intellectual property for the content |
 | usageTerms |  |  | String | Statement about the usage terms pertaining to the content |
+
 

@@ -24,6 +24,7 @@
         </li>
         
         <!-- Version Dropdown -->
+        {{ if not .IsHome }}
         <li class="nav-item dropdown">
           <button class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-versions" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
             <span class="d-none d-lg-block">
@@ -38,6 +39,7 @@
             <li><a class="dropdown-item" href="/1.0/introduction/why/">v1.0 (dpp)</a></li>
           </ul>
         </li>
+        {{ end }}
 
         <li class="nav-item col-6 col-lg-auto">
           <a class="nav-link py-2 px-0 px-lg-2" href="{{ .Site.Params.github }}" target="_blank" rel="noopener">

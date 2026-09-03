@@ -2,7 +2,7 @@
 title: JSON Schema
 ---
 
-# JSON Schema
+
 
 
 
@@ -150,4 +150,5 @@ title: JSON Schema
   }
 }
 ```
+
 

@@ -2,7 +2,7 @@
 title: LPX Data Model
 ---
 
-# LPX Data Model
+
 
 
 
@@ -19,5 +19,6 @@ Each event can be described through the following properties:
 ![](/1.0/introduction/model/data_model.png)
 
 The LPX metadata model and related fields are described in more detail in [LPX Metadata](/1.0/schema/)
+
 
 

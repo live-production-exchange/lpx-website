@@ -2,7 +2,7 @@
 title: LPX Metadata
 ---
 
-# LPX Metadata
+
 
 
 
@@ -33,5 +33,6 @@ Technical details about available feeds and how to access them.
 ##### [JSON Schema](/1.0/schema/json/)
 
 DPP LPX JSON schema for exchanging data
+
 
 

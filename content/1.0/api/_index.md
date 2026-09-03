@@ -2,7 +2,7 @@
 title: Reference APIs
 ---
 
-# Reference APIs
+
 
 
 
@@ -23,5 +23,6 @@ A reference GraphQL API developed by Reuters
 ##### [REST API](/1.0/api/rest/)
 
 A reference REST API will be published soon
+
 
 

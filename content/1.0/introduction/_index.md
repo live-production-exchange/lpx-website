@@ -2,7 +2,7 @@
 title: Introduction to DPP LPX
 ---
 
-# Introduction to DPP LPX
+
 
 
 
@@ -34,5 +34,6 @@ Example LPX User Stories
 ##### [DPP LPX and IPTC ninjs](/1.0/introduction/iptc/)
 
 Compatibility with ninjs
+
 
 

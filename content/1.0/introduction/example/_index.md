@@ -2,7 +2,7 @@
 title: LPX User Stories
 ---
 
-# LPX User Stories
+
 
 
 
@@ -40,5 +40,6 @@ The following is a set of example user stories that have been identified for DPP
 | Update event status | As a producer of a live event I need to update the status and details of the event as it progresses so that consumers are aware | As a consumer of a live event I need to know its status so that I can schedule/broadcast/record/stop publishing it/stop planning for it, accordingly in my workflow and output. |  |  |
 | View event metadata | As a producer, I want to provide accurate metadata for an event | As a consumer of a live event I need accurate metadata for it, so that I can plan my output and ensure it is correct for my audience |  |  |
 | Update event metadata | As a producer, I want to change the metadata I provide for an event so that it remains accurate throughout the event lifecycle | As a consumer I need to ensure metadata remains accurate for my audience and for planning purposes |  |  |
+
 
 

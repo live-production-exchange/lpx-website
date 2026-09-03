@@ -2,7 +2,7 @@
 title: Cancelled Event
 ---
 
-# Cancelled Event
+
 
 Example JSON for a cancelled event
 
@@ -69,4 +69,5 @@ Example JSON for a cancelled event
 }
 }
 ```
+
 

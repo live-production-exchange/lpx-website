@@ -2,7 +2,7 @@
 title: Editorial Properties
 ---
 
-# Editorial Properties
+
 
 
 
@@ -17,4 +17,5 @@ Properties representing the editorial metadata describing the live event feed th
 | location |  |  | String | Place name where event is located |
 | slugline |  |  | String | A human-readable identifier for the item |
 | topic |  |  | String | Indicates subject of the event |
+
 

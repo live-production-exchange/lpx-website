@@ -20,16 +20,16 @@ description: The open-source standard for automating the exchange of live video 
 {{< /caution >}}
 
 {{< cardgrid >}}
-	{{< card title="Automated & Standardized" >}}
-		Replaces manual, high-touch legacy workflows with seamless machine-to-machine communication for live video content.
-	{{< /card >}}
-	{{< card title="IPTC ninjs Based" >}}
-		Leverages a metadata schema based on the proven IPTC **ninjs** standard for describing live feeds, schedules, and transport protocols.
-	{{< /card >}}
-	{{< card title="Industry Interoperability" >}}
-		Bridges the gap between live event producers, service providers, and broadcast technologies.
-	{{< /card >}}
-	{{< card title="Open Source" >}}
-		Built by the community, for the community. Moving towards a standalone, fully open ecosystem.
-	{{< /card >}}
+{{< card title="Automated & Standardized" icon="rocket-takeoff" >}}
+Replaces manual, high-touch legacy workflows with seamless machine-to-machine communication for live video content.
+{{< /card >}}
+{{< card title="IPTC ninjs Based" icon="gear" >}}
+Leverages a metadata schema based on the proven IPTC **ninjs** standard for describing live feeds, schedules, and transport protocols.
+{{< /card >}}
+{{< card title="Industry Interoperability" icon="puzzle" >}}
+Bridges the gap between live event producers, service providers, and broadcast technologies.
+{{< /card >}}
+{{< card title="Open Source" icon="github" >}}
+Built by the community, for the community. Moving towards a standalone, fully open ecosystem.
+{{< /card >}}
 {{< /cardgrid >}}

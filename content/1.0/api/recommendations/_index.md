@@ -2,7 +2,7 @@
 title: LPX API Recommendations
 ---
 
-# LPX API Recommendations
+
 
 
 
@@ -46,4 +46,5 @@ In order to maintain interoperability, the following requirements are recommende
   transmitted securely.
 
 By meeting all the key points outlined in this recommendation, the implementation of an API using DPP LPX can be considered complete.
+
 

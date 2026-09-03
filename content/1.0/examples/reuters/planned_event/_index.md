@@ -2,7 +2,7 @@
 title: Upcoming Event
 ---
 
-# Upcoming Event
+
 
 Example JSON for a coming event
 
@@ -69,4 +69,5 @@ Example JSON for a coming event
   }
 }
 ```
+
 

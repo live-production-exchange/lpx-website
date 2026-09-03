@@ -2,7 +2,7 @@
 title: Event Properties
 ---
 
-# Event Properties
+
 
 
 
@@ -18,4 +18,5 @@ These properties provide the details for the event the live feed provides
 |  |  | expectedEndDate | Truncated DateTime | Expected end date and time (can be truncated) |
 |  | eventStatus |  | String | Current status of live event. Suggested values are from: <https://cv.iptc.org/newscodes/eventstatus/> |
 |  | planned CoverageStatus |  | String | Status of planned coverage. Suggested  values are from: <https://cv.iptc.org/newscodes/eventoccurstatus/> |
+
 

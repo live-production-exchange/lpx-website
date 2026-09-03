@@ -2,7 +2,7 @@
 title: Live Event
 ---
 
-# Live Event
+
 
 Example JSON for a live event
 
@@ -66,4 +66,5 @@ Example JSON for a live event
 	}
   }
 ```
+
 
