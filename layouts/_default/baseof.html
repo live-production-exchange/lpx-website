@@ -19,6 +19,13 @@
     {{ partial "header.html" . }}
     
     <div class="container-xxl my-md-4">
+        {{ if .IsHome }}
+        <div class="row">
+            <main class="col-12">
+                {{ block "main" . }}{{ end }}
+            </main>
+        </div>
+        {{ else }}
         <div class="row">
             <!-- Sidebar -->
             <aside class="col-md-3 col-lg-2 bd-sidebar">
@@ -30,6 +37,7 @@
                 {{ block "main" . }}{{ end }}
             </main>
         </div>
+        {{ end }}
     </div>
     
     <!-- Bootstrap 5 JS -->
