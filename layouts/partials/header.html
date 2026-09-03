@@ -11,16 +11,19 @@
     <div class="collapse navbar-collapse" id="bdNavbar">
       <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0">
         <li class="nav-item col-6 col-md-auto">
-          <a class="nav-link p-2 active" aria-current="page" href="/">Docs</a>
+          <a class="nav-link p-2 active" aria-current="page" href="/{{ .Site.Params.latest_version }}/">Docs</a>
         </li>
       </ul>
       
       <hr class="d-md-none text-white-50">
       
       <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
-        <!-- Search placeholder -->
-        <li class="nav-item col-12 col-lg-auto me-3 py-2 py-lg-0">
-          <div id="search" class="d-none d-lg-block"></div>
+        <!-- Search trigger -->
+        <li class="nav-item col-12 col-lg-auto me-3 py-2 py-lg-0 d-flex align-items-center">
+          <button type="button" class="btn btn-outline-light btn-sm d-flex align-items-center rounded px-3" data-bs-toggle="modal" data-bs-target="#searchModal" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); min-width: 200px; justify-content: space-between;">
+            <span><i class="bi bi-search me-2"></i>Search...</span>
+            <span class="border rounded px-1 ms-3" style="font-size: 0.75rem; border-color: rgba(255,255,255,0.3) !important;">Ctrl+K</span>
+          </button>
         </li>
         
         <!-- Version Dropdown -->
@@ -29,12 +32,12 @@
           <button class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-versions" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
             <span class="d-none d-lg-block">
               {{ $firstDir := index (split (strings.TrimPrefix "/" .RelPermalink) "/") 0 }}
-              {{ if eq $firstDir "1.0" }}v1.0 (dpp){{ else }}Latest - 2.0{{ end }}
+              {{ if eq $firstDir "1.0" }}v1.0 (dpp){{ else }}Latest - {{ .Site.Params.latest_version }}{{ end }}
             </span>
             <span class="d-lg-none">Versions</span>
           </button>
           <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-versions">
-            <li><a class="dropdown-item" href="/2.0/">Latest - 2.0</a></li>
+            <li><a class="dropdown-item" href="/{{ .Site.Params.latest_version }}/">Latest - {{ .Site.Params.latest_version }}</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="/1.0/introduction/why/">v1.0 (dpp)</a></li>
           </ul>
@@ -51,3 +54,4 @@
     </div>
   </div>
 </header>
+
