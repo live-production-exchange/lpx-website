@@ -1,0 +1,25 @@
+{
+  "sidebar": [
+    {
+      "label": "Introduction",
+      "items": [{ "autogenerate": { "directory": "introduction" } }]
+    },
+    {
+      "label": "LPX Metadata",
+      "items": [{ "autogenerate": { "directory": "schema" } }]
+    },
+    {
+      "label": "Examples",
+      "items": [{ "autogenerate": { "directory": "examples" } }]
+    },
+    {
+      "label": "Reference APIs",
+      "items": [{ "autogenerate": { "directory": "api" } }]
+    },
+    {
+      "label": "About LPX",
+      "items": [{ "autogenerate": { "directory": "about" } }]
+    }
+  ],
+  "excluded": []
+}

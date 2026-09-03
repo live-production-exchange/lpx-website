@@ -88,7 +88,7 @@
     }
     
     /* Make the search button itself a bit wider for a modern look */
-    site-search button {
+    site-search > button {
         width: 100%;
         max-width: 400px;
     }
