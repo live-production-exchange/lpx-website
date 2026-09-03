@@ -52,7 +52,7 @@ body {
 /* Pagefind Search Integration tweaks */
 #search { width: 100%; max-width: 300px; }
 .pagefind-ui__search-input { border-radius: 4px; padding: 5px; }
-.pagefind-ui__filter-panel { display: none !important; }
+
 
 /* Logo Carousel */
 .logo-carousel-container {
