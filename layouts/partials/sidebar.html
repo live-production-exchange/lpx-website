@@ -5,7 +5,7 @@
   {{ if eq $currentVersion .Site.Params.alpha_version }}
   <ul class="list-unstyled mb-0 py-3 pt-md-1">
     <li class="mb-1">
-      <a class="d-inline-flex align-items-center rounded text-decoration-none {{ if eq .RelPermalink (printf "/%s/" .Site.Params.alpha_version) }}active{{ end }}" href="/{{ .Site.Params.alpha_version }}/">Coming Soon (Alpha)</a>
+      <a class="d-inline-flex align-items-center rounded text-decoration-none {{ if eq .RelPermalink (printf "/%s/" .Site.Params.alpha_version) }}active{{ end }}" href="{{ "/{{ .Site.Params.alpha_version }}/" | relURL }}">Coming Soon (Alpha)</a>
     </li>
   </ul>
   {{ else }}
@@ -17,12 +17,12 @@
       </button>
       <div class="collapse show" id="introduction-collapse">
         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-          <li><a href="/1.0/introduction/" class="d-inline-flex align-items-center rounded text-decoration-none">Introduction to DPP LPX</a></li>
-          <li><a href="/1.0/introduction/why/" class="d-inline-flex align-items-center rounded text-decoration-none">Key Benefits</a></li>
-          <li><a href="/1.0/introduction/iptc/" class="d-inline-flex align-items-center rounded text-decoration-none">DPP LPX and IPTC ninjs</a></li>
-          <li><a href="/1.0/introduction/model/" class="d-inline-flex align-items-center rounded text-decoration-none">LPX Data Model</a></li>
-          <li><a href="/1.0/introduction/json/" class="d-inline-flex align-items-center rounded text-decoration-none">A Simple Example</a></li>
-          <li><a href="/1.0/introduction/example/" class="d-inline-flex align-items-center rounded text-decoration-none">LPX User Stories</a></li>
+          <li><a href="{{ "/1.0/introduction/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">Introduction to DPP LPX</a></li>
+          <li><a href="{{ "/1.0/introduction/why/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">Key Benefits</a></li>
+          <li><a href="{{ "/1.0/introduction/iptc/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">DPP LPX and IPTC ninjs</a></li>
+          <li><a href="{{ "/1.0/introduction/model/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">LPX Data Model</a></li>
+          <li><a href="{{ "/1.0/introduction/json/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">A Simple Example</a></li>
+          <li><a href="{{ "/1.0/introduction/example/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">LPX User Stories</a></li>
         </ul>
       </div>
     </li>
@@ -34,13 +34,13 @@
       </button>
       <div class="collapse show" id="schema-collapse">
         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-          <li><a href="/1.0/schema/" class="d-inline-flex align-items-center rounded text-decoration-none">LPX Metadata</a></li>
-          <li><a href="/1.0/schema/administrative/" class="d-inline-flex align-items-center rounded text-decoration-none">Administrative Properties</a></li>
-          <li><a href="/1.0/schema/editorial/" class="d-inline-flex align-items-center rounded text-decoration-none">Editorial Properties</a></li>
-          <li><a href="/1.0/schema/events/" class="d-inline-flex align-items-center rounded text-decoration-none">Event Properties</a></li>
-          <li><a href="/1.0/schema/json/" class="d-inline-flex align-items-center rounded text-decoration-none">JSON Schema</a></li>
-          <li><a href="/1.0/schema/renditions/" class="d-inline-flex align-items-center rounded text-decoration-none">Rendition Properties</a></li>
-          <li><a href="/1.0/schema/rights/" class="d-inline-flex align-items-center rounded text-decoration-none">Rights Properties</a></li>
+          <li><a href="{{ "/1.0/schema/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">LPX Metadata</a></li>
+          <li><a href="{{ "/1.0/schema/administrative/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">Administrative Properties</a></li>
+          <li><a href="{{ "/1.0/schema/editorial/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">Editorial Properties</a></li>
+          <li><a href="{{ "/1.0/schema/events/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">Event Properties</a></li>
+          <li><a href="{{ "/1.0/schema/json/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">JSON Schema</a></li>
+          <li><a href="{{ "/1.0/schema/renditions/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">Rendition Properties</a></li>
+          <li><a href="{{ "/1.0/schema/rights/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">Rights Properties</a></li>
         </ul>
       </div>
     </li>
@@ -52,8 +52,8 @@
       </button>
       <div class="collapse show" id="examples-collapse">
         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-          <li><a href="/1.0/examples/" class="d-inline-flex align-items-center rounded text-decoration-none">Examples</a></li>
-          <li><a href="/1.0/examples/reuters/" class="d-inline-flex align-items-center rounded text-decoration-none">Reuters Examples</a></li>
+          <li><a href="{{ "/1.0/examples/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">Examples</a></li>
+          <li><a href="{{ "/1.0/examples/reuters/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">Reuters Examples</a></li>
         </ul>
       </div>
     </li>
@@ -65,10 +65,10 @@
       </button>
       <div class="collapse show" id="apis-collapse">
         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-          <li><a href="/1.0/api/" class="d-inline-flex align-items-center rounded text-decoration-none">APIs</a></li>
-          <li><a href="/1.0/api/graph/" class="d-inline-flex align-items-center rounded text-decoration-none">GraphQL API</a></li>
-          <li><a href="/1.0/api/recommendations/" class="d-inline-flex align-items-center rounded text-decoration-none">Recommendations</a></li>
-          <li><a href="/1.0/api/rest/" class="d-inline-flex align-items-center rounded text-decoration-none">REST API</a></li>
+          <li><a href="{{ "/1.0/api/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">APIs</a></li>
+          <li><a href="{{ "/1.0/api/graph/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">GraphQL API</a></li>
+          <li><a href="{{ "/1.0/api/recommendations/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">Recommendations</a></li>
+          <li><a href="{{ "/1.0/api/rest/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">REST API</a></li>
         </ul>
       </div>
     </li>
@@ -80,9 +80,9 @@
       </button>
       <div class="collapse show" id="about-collapse">
         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-          <li><a href="/1.0/about/" class="d-inline-flex align-items-center rounded text-decoration-none">About</a></li>
-          <li><a href="/1.0/about/acknowledgements/" class="d-inline-flex align-items-center rounded text-decoration-none">Acknowledgements</a></li>
-          <li><a href="/1.0/about/license/" class="d-inline-flex align-items-center rounded text-decoration-none">License</a></li>
+          <li><a href="{{ "/1.0/about/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">About</a></li>
+          <li><a href="{{ "/1.0/about/acknowledgements/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">Acknowledgements</a></li>
+          <li><a href="{{ "/1.0/about/license/" | relURL }}" class="d-inline-flex align-items-center rounded text-decoration-none">License</a></li>
         </ul>
       </div>
     </li>

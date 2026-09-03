@@ -6,30 +6,30 @@ The DPP would like to thank the following organisations for playing a key role i
 
 <div class="logo-carousel-container">
   <div class="logo-carousel-track">
-    <img src="/assets/logos/reuters.svg" alt="Reuters" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/wbd.svg" alt="Warner Bros Discovery" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/iptc.png" alt="IPTC" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/arqiva.svg" alt="Arqiva" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/dpp.jpg" alt="DPP" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/mrmxf.svg" alt="Mr MXF" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/bbc.svg" alt="BBC" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/nxtedition.png" alt="nxtedition" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/wolftech.png" alt="Wolftech" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/aws.svg" alt="AWS" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/cinnafilm.png" alt="Cinnafilm" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/haivision.png" alt="Haivision" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/reuters.svg" alt="Reuters" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/wbd.svg" alt="Warner Bros Discovery" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/iptc.png" alt="IPTC" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/arqiva.svg" alt="Arqiva" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/dpp.jpg" alt="DPP" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/mrmxf.svg" alt="Mr MXF" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/bbc.svg" alt="BBC" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/nxtedition.png" alt="nxtedition" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/wolftech.png" alt="Wolftech" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/aws.svg" alt="AWS" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/cinnafilm.png" alt="Cinnafilm" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
-    <img src="/assets/logos/haivision.png" alt="Haivision" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/reuters.svg" alt="Reuters" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/wbd.svg" alt="Warner Bros Discovery" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/iptc.png" alt="IPTC" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/arqiva.svg" alt="Arqiva" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/dpp.jpg" alt="DPP" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/mrmxf.svg" alt="Mr MXF" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/bbc.svg" alt="BBC" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/nxtedition.png" alt="nxtedition" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/wolftech.png" alt="Wolftech" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/aws.svg" alt="AWS" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/cinnafilm.png" alt="Cinnafilm" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/haivision.png" alt="Haivision" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/reuters.svg" alt="Reuters" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/wbd.svg" alt="Warner Bros Discovery" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/iptc.png" alt="IPTC" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/arqiva.svg" alt="Arqiva" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/dpp.jpg" alt="DPP" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/mrmxf.svg" alt="Mr MXF" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/bbc.svg" alt="BBC" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/nxtedition.png" alt="nxtedition" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/wolftech.png" alt="Wolftech" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/aws.svg" alt="AWS" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/cinnafilm.png" alt="Cinnafilm" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
+    <img src="../../../assets/logos/haivision.png" alt="Haivision" style="height: 40px; width: auto; filter: grayscale(100%) opacity(70%)">
   </div>
 </div>
 

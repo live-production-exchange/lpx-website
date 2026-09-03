@@ -6,25 +6,25 @@ We would like to thank the following organisations for playing a key role in dev
 
 <div class="logo-carousel-container">
   <div class="logo-carousel-track">
-    <a href="https://wbd.com/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/wbd.svg" alt="Warner Bros. Discovery" class="carousel-logo-img" draggable="false"></a>
-    <a href="https://www.bbc.co.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/bbc.svg" alt="BBC" class="carousel-logo-img" draggable="false"></a>
-    <a href="https://imagen.io/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/reuters-imagen.png" alt="Reuters Imagen" class="carousel-logo-img" draggable="false"></a>
-    <a href="https://elliottmedia.co.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/elliott-media.png" alt="Elliott Media" class="carousel-logo-img" draggable="false"></a>
-    <a href="https://markham.me.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/markham-media.png" alt="Markham Media" class="carousel-logo-img" draggable="false"></a>
-    <a href="https://www.thedpp.com/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/dpp.jpg" alt="DPP" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://wbd.com/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/wbd.svg" alt="Warner Bros. Discovery" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://www.bbc.co.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/bbc.svg" alt="BBC" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://imagen.io/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/reuters-imagen.png" alt="Reuters Imagen" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://elliottmedia.co.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/elliott-media.png" alt="Elliott Media" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://markham.me.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/markham-media.png" alt="Markham Media" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://www.thedpp.com/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/dpp.jpg" alt="DPP" class="carousel-logo-img" draggable="false"></a>
     <!-- Repeated for smooth infinite scroll effect -->
-    <a href="https://wbd.com/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/wbd.svg" alt="Warner Bros. Discovery" class="carousel-logo-img" draggable="false"></a>
-    <a href="https://www.bbc.co.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/bbc.svg" alt="BBC" class="carousel-logo-img" draggable="false"></a>
-    <a href="https://imagen.io/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/reuters-imagen.png" alt="Reuters Imagen" class="carousel-logo-img" draggable="false"></a>
-    <a href="https://elliottmedia.co.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/elliott-media.png" alt="Elliott Media" class="carousel-logo-img" draggable="false"></a>
-    <a href="https://markham.me.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/markham-media.png" alt="Markham Media" class="carousel-logo-img" draggable="false"></a>
-    <a href="https://www.thedpp.com/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/dpp.jpg" alt="DPP" class="carousel-logo-img" draggable="false"></a>
-    <a href="https://wbd.com/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/wbd.svg" alt="Warner Bros. Discovery" class="carousel-logo-img" draggable="false"></a>
-    <a href="https://www.bbc.co.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/bbc.svg" alt="BBC" class="carousel-logo-img" draggable="false"></a>
-    <a href="https://imagen.io/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/reuters-imagen.png" alt="Reuters Imagen" class="carousel-logo-img" draggable="false"></a>
-    <a href="https://elliottmedia.co.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/elliott-media.png" alt="Elliott Media" class="carousel-logo-img" draggable="false"></a>
-    <a href="https://markham.me.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/markham-media.png" alt="Markham Media" class="carousel-logo-img" draggable="false"></a>
-    <a href="https://www.thedpp.com/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="/assets/logos/dpp.jpg" alt="DPP" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://wbd.com/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/wbd.svg" alt="Warner Bros. Discovery" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://www.bbc.co.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/bbc.svg" alt="BBC" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://imagen.io/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/reuters-imagen.png" alt="Reuters Imagen" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://elliottmedia.co.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/elliott-media.png" alt="Elliott Media" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://markham.me.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/markham-media.png" alt="Markham Media" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://www.thedpp.com/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/dpp.jpg" alt="DPP" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://wbd.com/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/wbd.svg" alt="Warner Bros. Discovery" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://www.bbc.co.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/bbc.svg" alt="BBC" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://imagen.io/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/reuters-imagen.png" alt="Reuters Imagen" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://elliottmedia.co.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/elliott-media.png" alt="Elliott Media" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://markham.me.uk/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/markham-media.png" alt="Markham Media" class="carousel-logo-img" draggable="false"></a>
+    <a href="https://www.thedpp.com/" target="_blank" rel="noopener" class="carousel-logo-link"><img src="../../../assets/logos/dpp.jpg" alt="DPP" class="carousel-logo-img" draggable="false"></a>
   </div>
 </div>
 
