@@ -69,7 +69,7 @@ title: JSON Schema
                   "copyrightHolder": {
                     "type": "string",
                     "title": "Copyright Holder",
-                    "description": "The person or organization claiming the intellectual property for the content"
+                    "description": "The person or organisation claiming the intellectual property for the content"
                   },
                   "copyrightNotice": {
                     "type": "string",

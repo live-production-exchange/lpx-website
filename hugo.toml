@@ -11,4 +11,5 @@ title = "Live Production Exchange"
 [params]
   description = "The open-source standard for automating the exchange of live video metadata and scheduling across IP networks."
   github = "https://github.com/live-production-exchange"
-  latest_version = "2.0"
+  latest_version = "1.0"
+  alpha_version = "2.0"

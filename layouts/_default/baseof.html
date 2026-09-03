@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
     <meta name="description" content="{{ .Site.Params.description }}">
-    
+    <link rel="icon" type="image/jpeg" href="/assets/lpx-logo.jpg">
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     
@@ -18,11 +18,17 @@
     <!-- Pagefind UI CSS -->
     <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 </head>
-<body>
+{{ $currentVersion := index (split (strings.TrimPrefix "/" .RelPermalink) "/") 0 }}
+<body data-pagefind-filter="version:{{ $currentVersion }}">
+    {{ if eq $currentVersion .Site.Params.alpha_version }}
+    <div class="bg-warning text-dark text-center py-2 fw-semibold" style="font-size: 0.9rem;">
+        This is an Alpha version. Please report any issues to our <a href="https://github.com/live-production-exchange/lpx-spec/issues" target="_blank" rel="noopener" class="text-dark text-decoration-underline">GitHub issue tracker</a>.
+    </div>
+    {{ end }}
     {{ partial "header.html" . }}
     
     <div class="container-xxl my-md-4">
-        {{ if .IsHome }}
+        {{ if or .IsHome (eq .RelPermalink "/versions/") }}
         <div class="row">
             <main class="col-12">
                 {{ block "main" . }}{{ end }}
@@ -64,7 +70,18 @@
     <script src="/pagefind/pagefind-ui.js"></script>
     <script>
         window.addEventListener('DOMContentLoaded', (event) => {
-            new PagefindUI({ element: "#search", showSubResults: true });
+            let pagefind = new PagefindUI({ 
+                element: "#search", 
+                showSubResults: true,
+                showImages: false
+            });
+            
+            // Wait for Pagefind UI to initialize, then set the version filter
+            setTimeout(() => {
+                if (pagefind.triggerFilters) {
+                    pagefind.triggerFilters({ version: "{{ $currentVersion }}" });
+                }
+            }, 100);
             
             const searchModal = document.getElementById('searchModal');
             searchModal.addEventListener('shown.bs.modal', () => {

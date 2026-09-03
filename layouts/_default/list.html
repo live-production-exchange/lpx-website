@@ -1,6 +1,8 @@
 {{ define "main" }}
-<div class="bd-content ps-lg-4">
+<div class="bd-content {{ if not (eq .RelPermalink "/versions/") }}ps-lg-4{{ end }}">
+    {{ if not .IsHome }}
     <h1 class="bd-title mb-4" id="content">{{ .Title }}</h1>
+    {{ end }}
     
     {{ .Content }}
     

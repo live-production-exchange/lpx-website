@@ -9,7 +9,7 @@ description: The open-source standard for automating the exchange of live video 
   <p class="lead mb-4">The open-source standard for automating the exchange of live video metadata and scheduling across IP networks.</p>
   <div class="mt-4">
     <a href="/{{< param latest_version >}}/" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Read the Docs</a>
-    <a href="https://github.com/live-production-exchange" class="btn btn-outline-secondary btn-lg px-4 fw-bold">View on GitHub</a>
+    <a href="https://github.com/live-production-exchange" class="btn btn-outline-secondary btn-lg px-4 fw-bold"><i class="bi bi-github me-2"></i>View on GitHub</a>
   </div>
 </div>
 
@@ -20,7 +20,7 @@ description: The open-source standard for automating the exchange of live video 
 {{< /caution >}}
 
 {{< cardgrid >}}
-{{< card title="Automated & Standardized" icon="rocket-takeoff" >}}
+{{< card title="Automated & Standardised" icon="rocket-takeoff" >}}
 Replaces manual, high-touch legacy workflows with seamless machine-to-machine communication for live video content.
 {{< /card >}}
 {{< card title="IPTC ninjs Based" icon="gear" >}}

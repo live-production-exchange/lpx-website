@@ -52,3 +52,64 @@ body {
 /* Pagefind Search Integration tweaks */
 #search { width: 100%; max-width: 300px; }
 .pagefind-ui__search-input { border-radius: 4px; padding: 5px; }
+.pagefind-ui__filter-panel { display: none !important; }
+
+/* Logo Carousel */
+.logo-carousel-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    margin: 2rem 0;
+    position: relative;
+}
+.logo-carousel-track {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    width: max-content;
+    animation: scroll-logos 30s linear infinite;
+}
+.logo-carousel-container:hover .logo-carousel-track {
+    animation-play-state: paused;
+}
+.carousel-logo-img {
+    height: 52px;
+    width: auto;
+    filter: grayscale(100%) opacity(70%);
+    transition: filter 0.3s ease-in-out;
+    -webkit-user-drag: none;
+    user-drag: none;
+}
+.carousel-logo-link:hover .carousel-logo-img {
+    filter: grayscale(0%) opacity(100%);
+}
+@keyframes scroll-logos {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* Card Hover Effects */
+.hover-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.hover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
+/* LinkedIn Icon Hover */
+a:hover .bi-linkedin {
+    color: #0077b5 !important;
+}
+.bi-linkedin {
+    transition: color 0.15s ease-in-out;
+}
+
+/* Version Dropdown */
+.active-version-item {
+    background-color: var(--bs-primary) !important;
+    color: white !important;
+}
+.active-version-item:hover {
+    background-color: #a3223b !important; /* Slightly darker shade of DPP red for hover */
+}

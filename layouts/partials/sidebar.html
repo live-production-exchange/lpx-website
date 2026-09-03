@@ -2,10 +2,10 @@
   {{ $currentVersion := index (split (strings.TrimPrefix "/" .RelPermalink) "/") 0 }}
   {{ $versionPages := where .Site.Pages "Section" $currentVersion }}
   
-  {{ if eq $currentVersion .Site.Params.latest_version }}
+  {{ if eq $currentVersion .Site.Params.alpha_version }}
   <ul class="list-unstyled mb-0 py-3 pt-md-1">
     <li class="mb-1">
-      <a class="d-inline-flex align-items-center rounded text-decoration-none {{ if eq .RelPermalink (printf "/%s/" .Site.Params.latest_version) }}active{{ end }}" href="/{{ .Site.Params.latest_version }}/">Coming Soon</a>
+      <a class="d-inline-flex align-items-center rounded text-decoration-none {{ if eq .RelPermalink (printf "/%s/" .Site.Params.alpha_version) }}active{{ end }}" href="/{{ .Site.Params.alpha_version }}/">Coming Soon (Alpha)</a>
     </li>
   </ul>
   {{ else }}
