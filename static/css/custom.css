@@ -52,3 +52,23 @@ body {
 /* Pagefind Search Integration tweaks */
 #search { width: 100%; max-width: 300px; }
 .pagefind-ui__search-input { border-radius: 4px; padding: 5px; }
+
+/* Logo Carousel */
+.logo-carousel-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    margin: 2rem 0;
+    position: relative;
+}
+.logo-carousel-track {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: max-content;
+    animation: scroll-logos 30s linear infinite;
+}
+@keyframes scroll-logos {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
