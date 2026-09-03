@@ -4,8 +4,10 @@
     
     {{ .Content }}
     
-    <div class="mt-5 pt-3 border-top text-muted small">
-        &copy; {{ now.Year }} Live Production Exchange
+    <div class="mt-5 pt-3 border-top text-muted small d-flex justify-content-between align-items-center">
+        <span>&copy; {{ now.Year }} Live Production Exchange</span>
+        {{ $package := unmarshal (os.ReadFile "package.json") }}
+        <span>v{{ $package.version }}</span>
     </div>
 </div>
 {{ end }}
