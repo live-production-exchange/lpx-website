@@ -1,6 +1,6 @@
 <header class="navbar navbar-expand-lg bd-navbar sticky-top bg-body-tertiary border-bottom">
   <div class="container-xxl">
-    <a class="navbar-brand d-flex align-items-center" href="{{ "/" | relURL }}">
+    <a class="navbar-brand d-flex align-items-center" href="/">
       <!-- Can place SVG logo here -->
       <span class="fw-semibold ms-2">Live Production Exchange</span>
     </a>
@@ -11,7 +11,7 @@
     <div class="collapse navbar-collapse" id="bdNavbar">
       <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0">
         <li class="nav-item col-6 col-md-auto">
-          <a class="nav-link p-2 active" aria-current="page" href="{{ printf "/%s/" .Site.Params.latest_version | relURL }}">Docs</a>
+          <a class="nav-link p-2 active" aria-current="page" href="/{{ .Site.Params.latest_version }}/">Docs</a>
         </li>
       </ul>
       
@@ -39,7 +39,7 @@
           <ul class="dropdown-menu dropdown-menu-end shadow p-1 border" aria-labelledby="bd-versions" style="border-radius: 0.5rem; min-width: 12.5rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;">
             <li><h6 class="dropdown-header text-body-secondary fw-semibold px-2 mb-0 mt-1" style="font-size: 0.8rem;">v2 releases</h6></li>
             <li>
-              <a class="dropdown-item d-flex justify-content-between align-items-center rounded {{ if eq $firstDir .Site.Params.alpha_version }}active-version-item fw-bold{{ end }} mb-1 py-1 px-2" style="font-size: 0.9rem;" href="{{ printf "/%s/" .Site.Params.alpha_version | relURL }}">
+              <a class="dropdown-item d-flex justify-content-between align-items-center rounded {{ if eq $firstDir .Site.Params.alpha_version }}active-version-item fw-bold{{ end }} mb-1 py-1 px-2" style="font-size: 0.9rem;" href="/{{ .Site.Params.alpha_version }}/">
                 <span>{{ .Site.Params.alpha_version }} <span class="{{ if eq $firstDir .Site.Params.alpha_version }}text-white-50{{ else }}text-muted{{ end }} fw-normal">(Alpha)</span></span>
                 {{ if eq $firstDir .Site.Params.alpha_version }}<i class="bi bi-check2"></i>{{ end }}
               </a>
@@ -47,14 +47,14 @@
             
             <li><h6 class="dropdown-header text-body-secondary fw-semibold border-top pt-2 px-2 mt-1 mb-0" style="font-size: 0.8rem;">Previous releases</h6></li>
             <li>
-              <a class="dropdown-item d-flex justify-content-between align-items-center rounded {{ if eq $firstDir .Site.Params.latest_version }}active-version-item fw-bold{{ end }} py-1 px-2" style="font-size: 0.9rem;" href="{{ printf "/%s/" .Site.Params.latest_version | relURL }}">
+              <a class="dropdown-item d-flex justify-content-between align-items-center rounded {{ if eq $firstDir .Site.Params.latest_version }}active-version-item fw-bold{{ end }} py-1 px-2" style="font-size: 0.9rem;" href="/{{ .Site.Params.latest_version }}/">
                 <span>v{{ .Site.Params.latest_version }} <span class="{{ if eq $firstDir .Site.Params.latest_version }}text-white-50{{ else }}text-muted{{ end }} fw-normal">(Latest)</span></span>
                 {{ if eq $firstDir .Site.Params.latest_version }}<i class="bi bi-check2"></i>{{ end }}
               </a>
             </li>
 
             <li><hr class="dropdown-divider my-1"></li>
-            <li><a class="dropdown-item rounded py-1 px-2" style="font-size: 0.9rem;" href="{{ "/versions/" | relURL }}">All versions...</a></li>
+            <li><a class="dropdown-item rounded py-1 px-2" style="font-size: 0.9rem;" href="/versions/">All versions...</a></li>
           </ul>
         </li>
         {{ end }}
