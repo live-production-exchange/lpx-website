@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Upcoming Event on Live Production Exchange</title>
-		<link>https://liveproductionexchange.org/1.0/examples/reuters/planned_event/</link>
+		<link>http://localhost:1313/1.0/examples/reuters/planned_event/</link>
 		<description>Recent content in Upcoming Event on Live Production Exchange</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,6 +10,6 @@
 		
 		
 		
-			<atom:link href="https://liveproductionexchange.org/1.0/examples/reuters/planned_event/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/1.0/examples/reuters/planned_event/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>

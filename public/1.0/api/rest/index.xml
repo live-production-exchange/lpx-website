@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>REST API on Live Production Exchange</title>
-		<link>https://liveproductionexchange.org/1.0/api/rest/</link>
+		<link>http://localhost:1313/1.0/api/rest/</link>
 		<description>Recent content in REST API on Live Production Exchange</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,6 +10,6 @@
 		
 		
 		
-			<atom:link href="https://liveproductionexchange.org/1.0/api/rest/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/1.0/api/rest/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>

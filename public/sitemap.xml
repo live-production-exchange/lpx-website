@@ -2,70 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://liveproductionexchange.org/1.0/introduction/json/</loc>
+    <loc>http://localhost:1313/1.0/introduction/json/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/about/</loc>
+    <loc>http://localhost:1313/1.0/about/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/2.0/about/</loc>
+    <loc>http://localhost:1313/2.0/about/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/about/acknowledgements/</loc>
+    <loc>http://localhost:1313/1.0/about/acknowledgements/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/2.0/about/acknowledgements/</loc>
+    <loc>http://localhost:1313/2.0/about/acknowledgements/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/schema/administrative/</loc>
+    <loc>http://localhost:1313/1.0/schema/administrative/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/examples/reuters/cancelled_event/</loc>
+    <loc>http://localhost:1313/1.0/examples/reuters/cancelled_event/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/introduction/iptc/</loc>
+    <loc>http://localhost:1313/1.0/introduction/iptc/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/schema/editorial/</loc>
+    <loc>http://localhost:1313/1.0/schema/editorial/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/schema/events/</loc>
+    <loc>http://localhost:1313/1.0/schema/events/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/api/graph/</loc>
+    <loc>http://localhost:1313/1.0/api/graph/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/introduction/</loc>
+    <loc>http://localhost:1313/1.0/introduction/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/schema/json/</loc>
+    <loc>http://localhost:1313/1.0/schema/json/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/introduction/why/</loc>
+    <loc>http://localhost:1313/1.0/introduction/why/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/about/license/</loc>
+    <loc>http://localhost:1313/1.0/about/license/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/examples/reuters/example_event/</loc>
+    <loc>http://localhost:1313/1.0/examples/reuters/example_event/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/</loc>
+    <loc>http://localhost:1313/1.0/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/2.0/</loc>
+    <loc>http://localhost:1313/2.0/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/api/recommendations/</loc>
+    <loc>http://localhost:1313/1.0/api/recommendations/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/introduction/model/</loc>
+    <loc>http://localhost:1313/1.0/introduction/model/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/examples/</loc>
+    <loc>http://localhost:1313/1.0/examples/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/schema/</loc>
+    <loc>http://localhost:1313/1.0/schema/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/introduction/example/</loc>
+    <loc>http://localhost:1313/1.0/introduction/example/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/api/</loc>
+    <loc>http://localhost:1313/1.0/api/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/schema/renditions/</loc>
+    <loc>http://localhost:1313/1.0/schema/renditions/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/api/rest/</loc>
+    <loc>http://localhost:1313/1.0/api/rest/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/examples/reuters/</loc>
+    <loc>http://localhost:1313/1.0/examples/reuters/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/schema/rights/</loc>
+    <loc>http://localhost:1313/1.0/schema/rights/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/1.0/examples/reuters/planned_event/</loc>
+    <loc>http://localhost:1313/1.0/examples/reuters/planned_event/</loc>
   </url><url>
-    <loc>https://liveproductionexchange.org/versions/</loc>
+    <loc>http://localhost:1313/versions/</loc>
   </url>
 </urlset>
