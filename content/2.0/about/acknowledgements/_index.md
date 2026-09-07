@@ -41,11 +41,11 @@ We would also like to thank the following individuals for their participation an
     <div class="card h-100 shadow-sm border-0 bg-body-tertiary hover-card">
       <div class="card-body">
         <h5 class="card-title fw-bold text-primary mb-1 d-flex justify-content-between align-items-start">
-          JJ Eynon
-          <a href="https://www.linkedin.com/in/jj-eynon-7820b51a/" target="_blank" rel="noopener" class="text-secondary"><i class="bi bi-linkedin"></i></a>
+          James Elliott
+          <a href="https://www.linkedin.com/in/elliottmedia/" target="_blank" rel="noopener" class="text-secondary"><i class="bi bi-linkedin"></i></a>
         </h5>
-        <h6 class="card-subtitle mb-2 text-muted">Director of Engineering</h6>
-        <p class="card-text small fw-semibold">Warner Bros. Discovery</p>
+        <h6 class="card-subtitle mb-2 text-muted">Consultant</h6>
+        <p class="card-text small fw-semibold">Elliott Media</p>
       </div>
     </div>
   </div>
@@ -101,11 +101,11 @@ We would also like to thank the following individuals for their participation an
     <div class="card h-100 shadow-sm border-0 bg-body-tertiary hover-card">
       <div class="card-body">
         <h5 class="card-title fw-bold text-primary mb-1 d-flex justify-content-between align-items-start">
-          James Elliott
-          <a href="https://www.linkedin.com/in/elliottmedia/" target="_blank" rel="noopener" class="text-secondary"><i class="bi bi-linkedin"></i></a>
+          JJ Eynon
+          <a href="https://www.linkedin.com/in/jj-eynon-7820b51a/" target="_blank" rel="noopener" class="text-secondary"><i class="bi bi-linkedin"></i></a>
         </h5>
-        <h6 class="card-subtitle mb-2 text-muted">Consultant</h6>
-        <p class="card-text small fw-semibold">Elliott Media</p>
+        <h6 class="card-subtitle mb-2 text-muted">Director of Engineering</h6>
+        <p class="card-text small fw-semibold">Warner Bros. Discovery</p>
       </div>
     </div>
   </div>

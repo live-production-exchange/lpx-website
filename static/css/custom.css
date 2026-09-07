@@ -1,4 +1,4 @@
-:root {
+:root, [data-bs-theme="light"], [data-bs-theme="dark"] {
     --bs-primary: #fbbf0c;
     --bs-primary-rgb: 251, 191, 12;
     --bd-purple: #fbbf0c;
@@ -68,13 +68,14 @@ body {
     border-left: 2px solid var(--bs-primary);
 }
 
-/* Modern Dark Navbar */
+/* Bold Yellow Navbar with Black Text */
 .bd-navbar {
-    background-color: #161b22 !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    background-color: var(--bs-primary) !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
 }
 .bd-navbar .navbar-brand {
-    color: #ffffff !important;
+    color: #111111 !important;
+    font-weight: 700;
 }
 .bd-navbar .navbar-brand img {
     transition: transform 0.2s ease-in-out;
@@ -83,24 +84,32 @@ body {
     transform: scale(1.08);
 }
 .bd-navbar .nav-link {
-    color: rgba(255, 255, 255, 0.85) !important;
+    color: #1a1a1a !important;
+    font-weight: 600;
 }
 .bd-navbar .nav-link:hover, .bd-navbar .nav-link:focus, .bd-navbar .nav-link.active {
-    color: var(--bs-primary) !important;
+    color: #000000 !important;
+    opacity: 0.75;
 }
 .bd-navbar .dropdown-menu {
     position: absolute;
 }
+.bd-navbar button[data-bs-target="#searchModal"] {
+    color: #1a1a1a !important;
+    background-color: rgba(0, 0, 0, 0.06) !important;
+    border-color: rgba(0, 0, 0, 0.25) !important;
+}
 .bd-navbar button[data-bs-target="#searchModal"]:hover {
-    border-color: var(--bs-primary) !important;
-    color: var(--bs-primary) !important;
+    border-color: #000000 !important;
+    background-color: rgba(0, 0, 0, 0.12) !important;
+    color: #000000 !important;
 }
 
 /* Card Titles */
 .hover-card .card-title.text-primary {
     color: #946c00 !important;
 }
-.hover-card .card-title.text-primary i {
+.hover-card .card-title.text-primary > i {
     color: var(--bs-primary) !important;
 }
 
@@ -153,11 +162,14 @@ body {
 }
 
 /* LinkedIn Icon Hover */
-a:hover .bi-linkedin {
-    color: #0077b5 !important;
-}
 .bi-linkedin {
+    color: var(--bs-secondary-color, #6c757d) !important;
     transition: color 0.15s ease-in-out;
+}
+a:hover .bi-linkedin,
+a:focus .bi-linkedin,
+.bi-linkedin:hover {
+    color: #0077b5 !important;
 }
 
 /* Version Dropdown */
