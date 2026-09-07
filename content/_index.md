@@ -4,7 +4,7 @@ description: The open-source standard for automating the exchange of live video 
 ---
 
 <div class="text-center py-5">
-  <img src="/assets/lpx-logo.jpg" alt="LPX Logo" style="max-height: 200px;" class="mb-4 rounded shadow-sm">
+  <img src="/assets/images/lpx-logo-colour-yellow.jpg" alt="LPX Logo" style="max-height: 200px;" class="mb-4 rounded shadow-sm">
   <h1 class="display-4 fw-bold">Live Production Exchange</h1>
   <p class="lead mb-4">The open-source standard for automating the exchange of live video metadata and scheduling across IP networks.</p>
   <div class="mt-4">

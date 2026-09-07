@@ -1,12 +1,38 @@
 :root {
-    --bs-primary: #ba2844;
-    --bs-primary-rgb: 186,40,68;
-    --bd-purple: #ba2844;
-    --bd-accent: #ba2844;
+    --bs-primary: #fbbf0c;
+    --bs-primary-rgb: 251, 191, 12;
+    --bd-purple: #fbbf0c;
+    --bd-accent: #fbbf0c;
+    --lpx-yellow: #fbbf0c;
+    --lpx-yellow-hover: #e0a800;
+    --lpx-yellow-dark: #b8860b;
 }
 
 body {
     font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+}
+
+/* Primary buttons with accessible dark text on yellow */
+.btn-primary {
+    --bs-btn-color: #1a1a1a !important;
+    --bs-btn-bg: #fbbf0c !important;
+    --bs-btn-border-color: #fbbf0c !important;
+    --bs-btn-hover-color: #111111 !important;
+    --bs-btn-hover-bg: #e0a800 !important;
+    --bs-btn-hover-border-color: #d99b00 !important;
+    --bs-btn-focus-shadow-rgb: 251, 191, 12 !important;
+    --bs-btn-active-color: #111111 !important;
+    --bs-btn-active-bg: #d99b00 !important;
+    --bs-btn-active-border-color: #cf9300 !important;
+    color: #1a1a1a !important;
+    background-color: #fbbf0c !important;
+    border-color: #fbbf0c !important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    color: #111111 !important;
+    background-color: #e0a800 !important;
+    border-color: #d99b00 !important;
 }
 
 /* Sidebar styling mimicking Bootstrap */
@@ -23,7 +49,7 @@ body {
     color: var(--bs-body-color);
 }
 .bd-links .btn:hover, .bd-links .btn:focus {
-    color: var(--bs-primary);
+    color: var(--lpx-yellow-dark);
     background-color: var(--bs-secondary-bg);
 }
 .btn-toggle-nav a {
@@ -34,25 +60,53 @@ body {
 }
 .btn-toggle-nav a:hover, .btn-toggle-nav a:focus {
     background-color: var(--bs-secondary-bg);
-    color: var(--bs-primary);
+    color: var(--lpx-yellow-dark);
 }
 .btn-toggle-nav a.active {
     font-weight: 600;
-    color: var(--bs-primary);
+    color: var(--lpx-yellow-dark);
+    border-left: 2px solid var(--bs-primary);
 }
+
+/* Modern Dark Navbar */
 .bd-navbar {
-    background-color: var(--bs-primary) !important;
+    background-color: #161b22 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
-.bd-navbar .navbar-brand, .bd-navbar .nav-link {
-    color: white !important;
+.bd-navbar .navbar-brand {
+    color: #ffffff !important;
+}
+.bd-navbar .navbar-brand img {
+    transition: transform 0.2s ease-in-out;
+}
+.bd-navbar .navbar-brand:hover img {
+    transform: scale(1.08);
+}
+.bd-navbar .nav-link {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+.bd-navbar .nav-link:hover, .bd-navbar .nav-link:focus, .bd-navbar .nav-link.active {
+    color: var(--bs-primary) !important;
 }
 .bd-navbar .dropdown-menu {
     position: absolute;
 }
+.bd-navbar button[data-bs-target="#searchModal"]:hover {
+    border-color: var(--bs-primary) !important;
+    color: var(--bs-primary) !important;
+}
+
+/* Card Titles */
+.hover-card .card-title.text-primary {
+    color: #946c00 !important;
+}
+.hover-card .card-title.text-primary i {
+    color: var(--bs-primary) !important;
+}
+
 /* Pagefind Search Integration tweaks */
 #search { width: 100%; max-width: 300px; }
 .pagefind-ui__search-input { border-radius: 4px; padding: 5px; }
-
 
 /* Logo Carousel */
 .logo-carousel-container {
@@ -90,11 +144,12 @@ body {
 
 /* Card Hover Effects */
 .hover-card {
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 .hover-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+    border-color: var(--bs-primary) !important;
 }
 
 /* LinkedIn Icon Hover */
@@ -108,8 +163,9 @@ a:hover .bi-linkedin {
 /* Version Dropdown */
 .active-version-item {
     background-color: var(--bs-primary) !important;
-    color: white !important;
+    color: #1a1a1a !important;
 }
 .active-version-item:hover {
-    background-color: #a3223b !important; /* Slightly darker shade of DPP red for hover */
+    background-color: var(--lpx-yellow-hover) !important;
+    color: #111111 !important;
 }
