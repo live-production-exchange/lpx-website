@@ -1,3 +1,7 @@
+<button class="btn btn-primary d-md-none mb-3 w-100 d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
+  <span><i class="bi bi-list me-2"></i>Documentation Menu</span>
+  <i class="bi bi-chevron-down"></i>
+</button>
 <nav class="collapse d-md-block bd-links" id="bd-docs-nav" aria-label="Docs navigation">
   {{ $currentVersion := index (split (strings.TrimPrefix "/" .RelPermalink) "/") 0 }}
   {{ $versionPages := where .Site.Pages "Section" $currentVersion }}

@@ -35,13 +35,14 @@ body {
     border-color: #d99b00 !important;
 }
 
-/* Sidebar styling mimicking Bootstrap */
-.bd-sidebar {
-    position: sticky;
-    top: 4rem;
-    height: calc(100vh - 4rem);
-    overflow-y: auto;
-    border-right: 1px solid var(--bs-border-color);
+@media (min-width: 768px) {
+    .bd-sidebar {
+        position: sticky;
+        top: 4rem;
+        height: calc(100vh - 4rem);
+        overflow-y: auto;
+        border-right: 1px solid var(--bs-border-color);
+    }
 }
 .bd-links .btn {
     padding: .25rem .5rem;
